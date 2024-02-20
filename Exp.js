@@ -39,6 +39,12 @@ function bindEvents(bot) {
   });
 }
 
+function formatTime(time) {
+    const timeZone = 'Asia/Ho_Chi_Minh';
+      return moment(time).tz(timeZone).format('HH:mm');
+}
+
+
 function relog() {
   console.log("Attempting to reconnect...");
   bot = mineflayer.createBot({
