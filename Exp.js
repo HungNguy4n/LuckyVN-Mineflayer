@@ -216,16 +216,6 @@ function tradegui() {
   }
 }
 
-function formatTime(time) {
-  var hours = time.getHours();
-  var minutes = time.getMinutes();
-
-  hours = hours < 10 ? '0' + hours : hours;
-  minutes = minutes < 10 ? '0' + minutes : minutes;
-
-  return `${hours}:${minutes}`;
-}
-
 let latestMessage = '';
 let previousMessage = '';
 let lastestTrader = '';
