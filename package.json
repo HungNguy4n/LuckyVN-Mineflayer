@@ -1,17 +1,11 @@
 {
-  "name": "luckyvn-mineflayer",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js", 
-  "scripts": {
-    "start": "node index.js"
-  },
   "dependencies": {
     "discord.js": "^14.14.1",
     "dotenv": "^16.4.1",
     "minecraft-data": "^3.60.0",
     "mineflayer": "^4.18.0",
     "mineflayer-auto-eat": "^3.3.6",
+    "mineflayer-blockfinder": "^0.0.7",
     "mineflayer-pathfinder": "^2.4.5",
     "mineflayer-web-inventory": "^1.8.4",
     "moment-timezone": "^0.5.45"
