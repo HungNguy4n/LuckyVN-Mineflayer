@@ -41,8 +41,8 @@ function bindEvents(bot) {
 }
 
 function formatTime(time) {
-    const timeZone = 'Asia/Ho_Chi_Minh';
-      return moment(time).tz(timeZone).format('HH:mm');
+  const timeZone = 'Asia/Ho_Chi_Minh';
+  return moment(time).tz(timeZone).format('HH:mm');
 }
 
 function relog() {
