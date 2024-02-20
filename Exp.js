@@ -44,7 +44,6 @@ function formatTime(time) {
       return moment(time).tz(timeZone).format('HH:mm');
 }
 
-
 function relog() {
   console.log("Attempting to reconnect...");
   bot = mineflayer.createBot({
